@@ -1,5 +1,6 @@
 # jpnewman.gerrit
 
+[![Ansible Role](https://img.shields.io/ansible/role/11259.svg?maxAge=2592000)](https://galaxy.ansible.com/jpnewman/gerrit/)
 [![Build Status](https://travis-ci.org/jpnewman/ansible-role-gerrit.svg?branch=master)](https://travis-ci.org/jpnewman/ansible-role-gerrit)
 
 This is a Ansible role to install Gerrit with the following: -
