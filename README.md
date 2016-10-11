@@ -66,7 +66,7 @@ Ansible 2.x
 |database||gerrit|
 |username||gerrit|
 |password||gerrit|
-|url||```"jdbc:mysql://{{ gerrit_database_mysql.hostname }}:3306/{{ gerrit_database_mysql.database }}?user={{ gerrit_database_mysql.username }}&password={{ gerrit_database_mysql.password }}&useUnicode=false&characterEncoding=latin1"```||
+|url||```"jdbc:mysql://localhost:3306/gerrit?user=gerrit&password=gerrit&useUnicode=false&characterEncoding=latin1"```||
 
 |```gerrit_container``` Object|Description|Default|
 |--:|---|:--|

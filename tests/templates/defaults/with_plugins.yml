@@ -3,7 +3,7 @@
 
 # https://gerrit-releases.storage.googleapis.com/index.html
 
-gerrit_version: 2.11
+gerrit_version: 2.11.9
 gerrit_url: https://www.gerritcodereview.com/download/gerrit-{{ gerrit_version }}.war
 
 gerrit_user: gerrit
@@ -74,14 +74,6 @@ gerrit_site_css_file: GerritSite.css
 gerrit_bouncycastle_jars:
   - http://repo2.maven.org/maven2/org/bouncycastle/bcprov-jdk15on/1.52/bcprov-jdk15on-1.52.jar
   - http://repo2.maven.org/maven2/org/bouncycastle/bcpkix-jdk15on/1.52/bcpkix-jdk15on-1.52.jar
-
-# Apache2
-apache_mods_enabled:
-  - proxy.load
-  - proxy_http.load
-
-gerrit_apache_doc_root: /var/www
-gerrit_apache_log_dir: /var/log/gerrit
 
 # Plugins
 gerrit_war_plugins: []

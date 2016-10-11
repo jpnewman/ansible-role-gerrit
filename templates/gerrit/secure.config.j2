@@ -3,8 +3,8 @@
 
 {% if gerrit_auth is defined %}
 [auth]
-	{% for name, value in gerrit_auth.iteritems() -%}
+{% for name, value in gerrit_auth.iteritems() %}
 	{{ name }} = {{ value }}
-	{% endfor %}
+{% endfor %}
 
 {% endif %}
